@@ -1,0 +1,10 @@
+inurl:include= | inurl:page= | inurl:file= | inurl:document= | inurl:path= | inurl:folder= | inurl:load= | inurl:view= | inurl:dir= | inurl:template= | inurl:inc= | inurl:require= | inurl:cat= | inurl:open= | inurl:show= | inurl:style=
+inurl:include=../ | inurl:page=../ | inurl:file=../ | inurl:document=../ | inurl:path=../ | inurl:load=../ | inurl:view=../ | inurl:dir=../ | inurl:template=../ | inurl:inc=../ | inurl:require=../
+inurl:etc/passwd | inurl:boot.ini | inurl:win.ini | inurl:WEB-INF/web.xml | inurl:proc/self/environ
+inurl:php://filter | inurl:php://input | inurl:data:text/plain | inurl:expect:// | inurl:glob://
+inurl:include=http | inurl:page=http | inurl:file=http | inurl:document=http | inurl:path=http | inurl:load=http | inurl:view=http | inurl:template=http | inurl:inc=http | inurl:require=http
+filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:cgi | filetype:pl inurl:include= | inurl:page= | inurl:file= | inurl:load= | inurl:inc= | inurl:require=
+intext:"failed to open stream" | intext:"include(): Failed opening" | intext:"require_once(): Failed opening" | intext:"file_get_contents(): failed to open stream" | intext:"No such file or directory" | intext:"failed to create stream" | intext:"failed to include stream" | intext:"include_path"
+intext:allow_url_include | intext:allow_url_fopen | intext:"URL file-access is disabled" | intext:"failed to open stream: HTTP request failed" | intext:"Remote file inclusion" | intext:"Warning: file("
+allinurl: page=../ | file=../ | include=../ | load=../ | view=../ | document=../ | path=../ | dir=../ | inc=../
+allinurl: page=http | file=http | include=http | load=http | view=http | document=http | path=http | inc=http
