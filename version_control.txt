@@ -1,0 +1,8 @@
+inurl:/.git/ | inurl:/.svn/ | inurl:/.hg/ | inurl:/.bzr/
+intitle:"index of /.git" | intitle:"index of /.svn" | intitle:"index of /.hg" | intitle:"index of /.bzr" | intitle:"index of" .git | intitle:"index of" .svn | intitle:"index of" .hg | intitle:"index of" .bzr
+inurl:.git/config | inurl:.git/HEAD | inurl:.git/index | inurl:.git/logs/HEAD | filetype:gitignore | filetype:gitattributes | inurl:.git/COMMIT_EDITMSG | inurl:.git/FETCH_HEAD | inurl:.git/ORIG_HEAD
+inurl:.svn/entries | inurl:.svn/wc.db | inurl:.svn/pristine | filetype:svn-base | filetype:svn-work
+inurl:.hg/dirstate | inurl:.hg/requires | inurl:.hg/hgrc | inurl:.hg/bookmarks | inurl:.hg/branch | inurl:.hg/last-message.txt
+inurl:.bzr/checkout | inurl:.bzr/repository | inurl:.bzr/branch | inurl:.bzr/README | inurl:.bzr/plugins
+intext:"[core]" intext:repositoryformatversion | intext:"[svn]" intext:wc.db | intext:"[paths]" intext:.hg | intext:"format = bazaar-ng" | intext:"ref:" inurl:HEAD | intext:gitignore inurl:gitignore
+filetype:entries | filetype:wc | filetype:gitignore | filetype:gitmodules | filetype:bzrignore | filetype:hgignore
