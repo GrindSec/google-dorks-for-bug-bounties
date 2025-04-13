@@ -1,0 +1,10 @@
+intitle:"Welcome to WordPress" | intext:"Powered by WordPress" | inurl:wp-login.php | inurl:wp-admin
+intitle:"Joomla! Administration Login" | intext:"Powered by Joomla" | inurl:/administrator/ | inurl:com_user
+intitle:"Log in | Drupal" | intext:"Powered by Drupal" | inurl:/user/login | inurl:node/add
+intitle:"Magento Admin" | intext:"Magento, Inc." | inurl:admin_login | inurl:downloader | intitle:"Magento Community Edition"
+intitle:"phpMyAdmin" intext:"Welcome to phpMyAdmin" | inurl:phpmyadmin/setup.php | intitle:"phpPgAdmin" | intitle:"Adminer"
+intitle:"Welcome to nginx!" | intitle:"Test Page for Apache" | intitle:"Apache Tomcat/" | intitle:"It works!" | intitle:"IIS Windows Server" | intitle:"Welcome to LiteSpeed Web Server"
+intitle:"Login - Jenkins" | inurl:/jenkins/login | intitle:"Webmin" intext:"Login to Webmin" | intitle:"Plesk" intext:"Login to Plesk" | intitle:"cPanel" intext:"Login to cPanel" | intitle:"SonarQube" inurl:sessions/new | intitle:"Nexus Repository Manager"
+intitle:"Struts Problem Report" | intext:"Struts Application Error" | intext:"Ruby on Rails" intext:error | intext:"Django" intext:error | intext:"ColdFusion Administrator Login" | intext:"Welcome to ColdFusion" | intext:"Error Occurred While Processing Request" intext:coldfusion
+inurl:readme.html | inurl:install.php | inurl:setup.php | inurl:install/ | inurl:setup/ | filetype:readme intext:install | intext:"initial setup" | intext:"default password"
+intext:"PHP Version" intitle:phpinfo | intext:"Apache Server Information" | intext:"Tomcat Server Information" | intext:"Server:" intext:"Version:" | intext:"X-Powered-By:" | intext:"X-AspNet-Version:"
