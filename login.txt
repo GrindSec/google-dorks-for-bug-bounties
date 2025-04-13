@@ -1,0 +1,6 @@
+inurl:login | inurl:signin | inurl:auth | inurl:account | inurl:portal | inurl:logon | inurl:access | inurl:cas | inurl:sso
+intitle:"Login" | intitle:"Sign In" | intitle:"Authenticate" | intitle:"Account" | intitle:"Portal" | intitle:"Logon" | intitle:"Access"
+inurl:login | inurl:signin | inurl:auth | inurl:logon | (intitle:"Login" | intitle:"Sign In" | intitle:"Authenticate" | intitle:"Logon"
+inurl:login | inurl:signin | inurl:auth) filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:cgi
+allintitle: login | signin | portal | authenticate | access | account | logon | sso | identity
+allinurl: login | signin | auth | account | portal | logon | access | cas | sso
