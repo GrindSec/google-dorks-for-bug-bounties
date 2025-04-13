@@ -1,0 +1,8 @@
+inurl:/api/ | inurl:/v1/ | inurl:/v2/ | inurl:/v3/ | inurl:/rest/ | inurl:/graphql/ | inurl:/ws/ | inurl:/soap/ | inurl:/service/ | inurl:/swagger/ | inurl:/openapi/ | inurl:/_api/
+intitle:"API" | intitle:"Swagger" | intitle:"REST" | intitle:"GraphQL" | intitle:"Web Service" | intitle:"Documentation" | intitle:"Reference" | intitle:"Endpoint" | intitle:"OpenAPI"
+inurl:/api/ | inurl:/rest/ | inurl:/graphql/ | inurl:/swagger/ | inurl:/openapi/ | intitle:"API" | intitle:"Swagger" | intitle:"REST" | intitle:"GraphQL" | intitle:"OpenAPI"
+filetype:json | filetype:yaml | filetype:yml | filetype:xml | filetype:wsdl | filetype:swagger | filetype:postman_collection | filetype:raml
+intext:"API Key" | intext:"API Token" | intext:"Authorization Bearer" | intext:"GraphQL Playground" | intext:"Swagger JSON" | intext:"OpenAPI Specification" | intext:"WSDL Definition" | intext:"basePath"
+inurl:swagger | inurl:openapi | inurl:api-docs | inurl:graphql | inurl:postman | inurl:wadl | inurl:raml filetype:json | filetype:yaml | filetype:yml | filetype:xml
+allintitle: api | swagger | rest | graphql | service | endpoint | documentation | openapi
+allinurl: api | v1 | v2 | v3 | rest | graphql | ws | soap | service | swagger | openapi | endpoint
