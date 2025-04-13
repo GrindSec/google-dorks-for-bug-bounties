@@ -1,0 +1,8 @@
+intext:"Access-Control-Allow-Origin" | intext:"Access-Control-Allow-Credentials" | intext:"Access-Control-Allow-Methods" | intext:"Access-Control-Allow-Headers"
+intext:"Access-Control-Allow-Origin: *"
+intext:"Access-Control-Allow-Origin: null"
+intext:"Access-Control-Allow-Credentials: true"
+inurl:cors | inurl:crossdomain | inurl:clientaccesspolicy | inurl:policy intext:cors | intext:crossdomain | intext:allow-origin
+filetype:xml intext:crossdomain | filetype:xml intext:clientaccesspolicy
+filetype:json | filetype:yaml | filetype:yml | filetype:js | filetype:php | filetype:py | filetype:rb | filetype:java | filetype:cs | filetype:go | filetype:conf | filetype:config intext:"Access-Control-Allow-Origin"
+allintext:"Access-Control-Allow-Origin" "*" credentials
