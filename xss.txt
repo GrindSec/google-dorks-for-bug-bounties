@@ -1,0 +1,6 @@
+inurl:query= | inurl:search= | inurl:term= | inurl:keyword= | inurl:q= | inurl:s= | inurl:keywords= | inurl:searchFor= | inurl:find= | inurl:lookfor=
+inurl:id= | inurl:name= | inurl:page= | inurl:file= | inurl:lang= | inurl:view= | inurl:profile= | inurl:user= | inurl:uid= | inurl:cat= | inurl:category= | inurl:type= | inurl:item= | inurl:doc= | inurl:preview= | inurl:p= | inurl:load=
+inurl:redirect= | inurl:url= | inurl:next= | inurl:return= | inurl:callback= | inurl:goto= | inurl:dest= | inurl:returnUrl= | inurl:continue= | inurl:ReturnTo= | inurl:forward= | inurl:redir=
+inurl:param= | inurl:val= | inurl:input= | inurl:data= | inurl:msg= | inurl:message= | inurl:debug= | inurl:error= | inurl:status= | inurl:year= | inurl:title= | inurl:text= | inurl:email= | inurl:content= | inurl:comment=
+filetype:php | filetype:asp | filetype:aspx | filetype:jsp | filetype:html | filetype:htm inurl:query= | inurl:search= | inurl:term= | inurl:s= | inurl:q= | inurl:id= | inurl:page= | inurl:lang= | inurl:name= | inurl:view= | inurl:redirect= | inurl:url= | inurl:callback= | inurl:param= | inurl:val= | inurl:input= | inurl:msg=
+allinurl: search query | search term | search results | user profile | view item | view page | redirect url | callback url | msg send | contact message | add comment
