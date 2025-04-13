@@ -1,0 +1,8 @@
+filetype:log | filetype:txt | filetype:out | filetype:err | filetype:debug | filetype:trace | filetype:log.txt
+ext:log | ext:txt | ext:out | ext:err | ext:debug | ext:trace
+inurl:log | inurl:logs | inurl:debug | inurl:trace | inurl:error | inurl:audit | inurl:server | inurl:/logs/ | inurl:/log/ | inurl:/debug/ | inurl:/traces/ | inurl:/errors/ | inurl:access.log | inurl:error.log | inurl:debug.log | inurl:application.log | inurl:system.log | inurl:server.log | inurl:audit.log
+intitle:"index of" log | intitle:"index of" logs | intitle:"index of" debug | intitle:"index of" trace | intitle:"index of" error | intitle:"index of" audit | intitle:"index of" *.log | intitle:"index of" *.txt | intitle:"index of" *.out | intitle:"index of" errors | intitle:"index of" traces
+intext:INFO | intext:DEBUG | intext:ERROR | intext:WARNING | intext:FATAL | intext:TRACE | intext:Exception | intext:"Stack trace" | intext:"request" | intext:"response" | intext:"IP address" | intext:"session ID" | intext:"user ID" | intext:SQLSTATE | intext:timestamp | intext:"Log File" | intext:"Log generated"
+filetype:log | filetype:txt | filetype:out intext:password | intext:secret | intext:apikey | intext:token | intext:credentials | intext:sessionid | intext:SSN | intext:creditcard | intext:auth_token | intext:pwd | intext:passwd
+allintitle: log | logs | debug | error | trace | audit | status | server | events
+intitle:"Log Viewer" | intitle:"Log File" | intitle:"Logs" | intitle:"Error Log" | intitle:"Debug Log" | intitle:"System Log" | intitle:"Application Log"
