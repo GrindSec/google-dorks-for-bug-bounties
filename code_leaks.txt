@@ -1,0 +1,12 @@
+ite:pastebin.com | site:paste2.org | site:paste.ee | site:controlc.com | site:privatebin.net | site:justpaste.it | site:hastebin.com | site:ideone.com | site:codebeautify.org | site:jsfiddle.net password | secret | apikey | token | "private key" | credentials | auth_token | connectionstring
+site:github.com | site:gist.github.com password | secret | apikey | token | "BEGIN RSA PRIVATE KEY" | AWS_ACCESS_KEY_ID | filename:.env | filename:.pem | filename:.key | filename:_netrc | filename:.pgpass | client_secret | auth_token
+site:gitlab.com password | secret | apikey | token | "private key" | AWS_ACCESS_KEY_ID | filename:.env | filename:.pem | filename:.key | credentials | client_secret
+site:bitbucket.org password | secret | apikey | token | "private key" | AWS_ACCESS_KEY_ID | filename:.env | credentials
+site:npmjs.com _auth | password | secret | token
+site:*.slack.com password | secret | token | apikey | "xoxp-" | "xoxb-"
+site:*.atlassian.net password | secret | token | apikey | jira_password | confluence_password
+site:*.s3.amazonaws.com | site:*.blob.core.windows.net | site:*.googleapis.com | site:*.digitaloceanspaces.com password | secret | backup | dump | export | credentials
+intext:"BEGIN RSA PRIVATE KEY" | intext:"BEGIN DSA PRIVATE KEY" | intext:"BEGIN EC PRIVATE KEY" | intext:"BEGIN OPENSSH PRIVATE KEY" | intext:"BEGIN PGP PRIVATE KEY BLOCK" filetype:pem | filetype:key | filetype:txt
+filetype:env | filetype:config | filetype:conf | filetype:cfg | filetype:ini | filetype:yml | filetype:yaml | filetype:json | filetype:xml DB_PASSWORD | DATABASE_URL | AWS_SECRET_ACCESS_KEY | SECRET_KEY | API_KEY | PGPASSWORD | PRIVATE_KEY | AUTH_TOKEN | CONNECTION_STRING | client_secret | ftp_password
+filetype:sql | filetype:dump | filetype:bak | filetype:backup intext:password | intext:passwd | intext:credentials | intext:users | intext:admin | intext:INSERT INTO
+inurl:.env | inurl:.bash_history | inurl:.history | inurl:.sh_history | inurl:.zsh_history | inurl:.netrc | inurl:.pgpass | inurl:wp-config.php | inurl:config.json | inurl:credentials | inurl:.aws/credentials | inurl:.git-credentials | inurl:htpasswd | inurl:passwd
