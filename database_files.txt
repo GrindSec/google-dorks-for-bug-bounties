@@ -1,0 +1,8 @@
+filetype:sql | filetype:db | filetype:mdb | filetype:sqlite | filetype:sqlite3 | filetype:dbf | filetype:sqlitedb | filetype:dump | filetype:backup | filetype:bak | filetype:bkp | filetype:csv | filetype:dat | filetype:myd
+ext:sql | ext:db | ext:mdb | ext:sqlite | ext:sqlite3 | ext:dbf | ext:sqlitedb | ext:dump | ext:backup | ext:bak | ext:bkp | ext:csv | ext:dat | ext:myd
+ext:zip | ext:tar.gz | ext:tgz | ext:gz | ext:7z | ext:rar intext:database | intext:dump | intext:backup | intext:sql | intext:.sql | intext:.db
+inurl:database | inurl:db | inurl:sql | inurl:dump | inurl:backup | inurl:data | inurl:/db/ | inurl:/database/ | inurl:/sql/ | inurl:/dumps/ | inurl:/backups/ | inurl:/data/ | inurl:.sql | inurl:.db | inurl:.sqlite
+intitle:"index of" db | intitle:"index of" database | intitle:"index of" sql | intitle:"index of" backup | intitle:"index of" dump | intitle:"index of" data | intitle:"index of" backups | intitle:"index of" *.sql | intitle:"index of" *.db | intitle:"index of" *.sqlite | intitle:"index of" *.mdb
+intext:"CREATE TABLE" | intext:"INSERT INTO" | intext:"SQL DUMP" | intext:"database dump" | intext:"pg_dumpall" | intext:"mysqldump" | intext:"-- Dump completed on" | intext:"# Dumping data for table" | intext:"SELECT * FROM"
+filetype:sql | filetype:dump | filetype:db | filetype:sqlite intext:password | intext:passwd | intext:pwd | intext:credentials | intext:admin | intext:secret | intext:username | intext:email
+intitle:phpMyAdmin | intitle:Adminer | intitle:pgAdmin | intitle:"SQL Server Management Studio" intext:database | intext:export | intext:dump
